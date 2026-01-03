@@ -32,7 +32,7 @@ export interface Room {
 
 export interface Hostel {
   id: string;
-  hostelNumber: string; // This is the name/number e.g. "Maruti A"
+  hostelNumber: string; // The identifying name/number like "Block A"
   rooms: Room[];
   totalCapacity: number;
 }
@@ -47,8 +47,8 @@ export interface Resident {
   hostelNumber: string;
   roomType: 'AC' | 'NON_AC';
   joiningDate: string;
-  photo: string; // base64
-  idDocument: string; // base64
+  photo: string; // base64 or URL
+  idDocument: string; // base64 or URL
   password: string;
   username: string;
   paymentStatus: 'PAID' | 'UNPAID' | 'PENDING';
