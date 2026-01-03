@@ -1,0 +1,7 @@
+{
+  "name": "Maruti PG",
+  "description": "A comprehensive hostel management system for admins and residents, featuring automated password generation, rent tracking, AI-powered police verification forms, and expense management.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
